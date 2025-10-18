@@ -1,0 +1,3 @@
+import React, { useEffect } from 'react';
+const SplashScreen = ({ onFinish }) => { useEffect(()=>{ const audio = new Audio('/public/sounds/splash-sound.mp3'); audio.volume=0.7; audio.play().catch(()=>{}); const timer=setTimeout(()=>onFinish(),2000); return ()=>clearTimeout(timer); },[onFinish]); return (<div className="fixed inset-0 flex flex-col items-center justify-center bg-[#1E40AF] text-white z-50"><img src="/public/logo.png" alt="Memorável e Atraente" className="w-32 h-32 mb-4"/><h1 className="text-3xl font-bold">Memorável e Atraente</h1><p className="italic">A Nossa História eterna</p></div>); };
+export default SplashScreen;

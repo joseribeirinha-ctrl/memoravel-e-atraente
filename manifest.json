@@ -1,0 +1,21 @@
+{
+  "name": "Memor\u00e1vel e Atraente",
+  "short_name": "Memor\u00e1vel e Atraente",
+  "description": "Produtora de conte\u00fados sobre o norte de Portugal, Espanha, It\u00e1lia e Mediterr\u00e2neo: a Nossa Hist\u00f3ria eterna.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1E40AF",
+  "icons": [
+    {
+      "src": "/public/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/public/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memorável & Atraente</title>
+    <meta name="description" content="Produtora de conteúdos sobre o norte de Portugal, Espanha, Itália e Mediterrâneo: a Nossa História eterna." />
+    <link rel="icon" href="/public/favicon.png" type="image/png" />
+    <meta property="og:image" content="/public/logo.png" />
+    <meta property="og:title" content="Memorável & Atraente" />
+    <meta property="og:description" content="Produtora de conteúdos sobre o norte de Portugal, Espanha, Itália e Mediterrâneo: a Nossa História eterna." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#1E40AF" />
+    <link rel="alternate" hreflang="pt" href="https://memoraveleatraente.pt/pt/" />
+    <link rel="alternate" hreflang="gl" href="https://memoraveleatraente.pt/gl/" />
+    <link rel="alternate" hreflang="es" href="https://memoraveleatraente.pt/es/" />
+    <link rel="alternate" hreflang="ca" href="https://memoraveleatraente.pt/ca/" />
+    <link rel="alternate" hreflang="eu" href="https://memoraveleatraente.pt/eu/" />
+    <link rel="alternate" hreflang="it" href="https://memoraveleatraente.pt/it/" />
+    <link rel="alternate" hreflang="fr" href="https://memoraveleatraente.pt/fr/" />
+    <link rel="alternate" hreflang="en" href="https://memoraveleatraente.pt/en/" />
+    <link rel="canonical" href="https://memoraveleatraente.pt/" />
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/service-worker.js")
+          .then(() => console.log("Service Worker registado com sucesso."))
+          .catch((err) => console.error("Erro ao registar o Service Worker:", err));
+      }
+    </script>
+  </body>
+</html>
